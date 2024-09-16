@@ -1,0 +1,12 @@
+{
+  "client": {
+    "source": "client"
+  },
+  "functions": {
+    "targets": [
+      "smart_tuition_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  }
+}

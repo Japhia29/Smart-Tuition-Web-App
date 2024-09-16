@@ -1,0 +1,61 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "897000000007078",
+      "name": "SmartTuition",
+      "domain": {
+        "id": "50022160532",
+        "name": "smarttuition-60032496374.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60032496374",
+          "name": "Development",
+          "type": 3,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "SmartTuition",
+            "id": "897000000007078",
+            "project_type": "Live"
+          },
+          "is_default": false,
+          "action_required": false
+        },
+        {
+          "idx": 2,
+          "id": "50022162648",
+          "name": "Production",
+          "type": 1,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "SmartTuition",
+            "id": "897000000007078",
+            "project_type": "Live"
+          },
+          "is_default": true,
+          "clone_env_id": "60032496374",
+          "migrated_services": {
+            "migrated_services": [
+              "Settings",
+              "Cloud Scale",
+              "Serverless"
+            ],
+            "is_catalyst_migrated": true
+          },
+          "action_required": false
+        }
+      ]
+    }
+  ]
+}
